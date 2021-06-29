@@ -1,7 +1,7 @@
 function password() {
   var passwrd = prompt("Enter password to open");
 
-  if (passwrd.toString() == "password@8860") {
+  if (passwrd.toString() == "password@1234") {
     document.querySelector(".password-2").style.display = "block";
   } else {
     alert("Incorrect Password! Please try again");
